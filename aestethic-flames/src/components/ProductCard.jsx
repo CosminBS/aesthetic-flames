@@ -18,7 +18,7 @@ const ProductCard = () => {
                     src={`${p.img}`}
                     className="aspect-square w-full rounded-md bg-gray-200 object-cover group-hover:opacity-75 lg:aspect-auto lg:h-80"
                   />
-                  <div className="mt-4 flex justify-between">
+                  <div className="mt-4 flex flex-col justify-between w-full h-20">
                     <div>
                       <h3 className="text-sm text-gray-700">
                         <button onClick={() => navigate(`/products/${p.id}`)}>
@@ -26,7 +26,6 @@ const ProductCard = () => {
                           {p.title}
                         </button>
                       </h3>
-                      <p className="mt-1 text-sm text-gray-500">Vezi</p>
                     </div>
                     <p className="text-sm font-medium text-gray-900 w-[45px]">{p.price}RON</p>
                   </div>
@@ -46,7 +45,7 @@ const ProductCard = () => {
                     src={`${p.img}`}
                     className="aspect-square w-full rounded-md bg-gray-200 object-cover group-hover:opacity-75 lg:aspect-auto lg:h-80"
                   />
-                  <div className="mt-4 flex justify-between">
+                  <div className="mt-4 flex flex-col justify-between w-full h-20">
                     <div>
                       <h3 className="text-sm text-gray-700">
                       <button onClick={() => navigate(`/products/${p.id}`)}>
@@ -54,7 +53,6 @@ const ProductCard = () => {
                           {p.title}
                         </button>
                       </h3>
-                      <p className="mt-1 text-sm text-gray-500">Vezi</p>
                     </div>
                     <p className="text-sm font-medium text-gray-900 w-[45px]">{p.price}RON</p>
                   </div>
