@@ -10,7 +10,6 @@ const Footer = () => {
                 <span><h1 className='text-[19px] underline'>Date Generale</h1></span>
                 <span className='flex flex-col gap-2'>
                     <Link to="/" className='hover:underline cursor-pointer'>Acasa</Link>
-                    <Link to="/about" className='hover:underline cursor-pointer'>Despre</Link>
                     <Link to="/contact" className='hover:underline cursor-pointer'>Contact</Link>
                     <Link to="/products" className='hover:underline cursor-pointer'>Produse</Link>
                 </span>
